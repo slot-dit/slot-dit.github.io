@@ -1,0 +1,13 @@
+.cache/
+node_modules/
+public/
+
+backups/
+scripts/
+various_assets/
+
+src/pages/index_like_poster.tsx
+src/styles/global_like_poster.css
+
+static/images_from_paper/
+static/gifs/from_supp_material/

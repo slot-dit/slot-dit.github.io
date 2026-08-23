@@ -1,0 +1,6 @@
+@inproceedings{plepi2026slotdit,
+  title     = {SlotDiT: Object-Centric Representations for Diffusion Transformers},
+  author    = {Plepi, Gjergj and Behnke, Sven},
+  booktitle = {British Machine Vision Conference (BMVC)},
+  year      = {2026}
+}
