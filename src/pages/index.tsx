@@ -129,12 +129,22 @@ const Article: React.FC<React.PropsWithChildren> = ({ children }) => (
 
 const ResourceLinks = () => (
   <nav className="resource-links" aria-label="Project resources">
-    <span className="resource-link resource-link--disabled" aria-disabled="true" title="Code coming soon">
-      <span aria-hidden="true">&lt;/&gt;</span> Code <small>Coming soon</small>
-    </span>
-    <span className="resource-link resource-link--disabled" aria-disabled="true" title="Paper coming soon">
-      <span aria-hidden="true">&#128196;</span> Paper <small>Coming soon</small>
-    </span>
+    <a
+      className="resource-link no-underline-effect"
+      href="https://github.com/Gjergj121/SlotDiT"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span aria-hidden="true">&lt;/&gt;</span> Code
+    </a>
+    <a
+      className="resource-link no-underline-effect"
+      href="https://arxiv.org/abs/2609.17414"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span aria-hidden="true">&#128196;</span> Paper
+    </a>
     <a className="resource-link no-underline-effect" href="#citation">
       <span aria-hidden="true">&#8220;</span> BibTeX
     </a>
